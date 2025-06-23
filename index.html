@@ -2,15 +2,16 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zeki Asistan</title>
+  <title>Pastel Asistan</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Zeki Asistan 🤖</h1>
-    <div id="messages" class="chat-box"></div>
-    <input type="text" id="input" placeholder="Bir şey yazın ve Enter'a basın..." />
+    <div id="chat-box"></div>
+    <div class="input-group">
+      <input type="text" id="user-input" placeholder="Bir şey sor..." />
+      <button id="send-button">Gönder</button>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
